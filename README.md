@@ -17,7 +17,7 @@ After training my model, my last epoch had a 99.3% accuracy.
 
 ## Challenges
 
-Incorrect Labels: The first data set I used contained about 8100 cars in the training and validation, which I though was a great lead. Unfortunately the labels were incorrect so I was forced to find another dataset. Though unfortunate, this was a useful challenge because it taught me about how to properly label my data for the training to be effective.
+Incorrect Labels: The first data set I used contained about 8100 cars in the training and validation, which I though was a great lead. Unfortunately the labels were incorrect so I was forced to find another dataset. Though unfortunate, this was a useful challenge because it taught me about how to properly label my data for the training to be effective. The way I did so was by creating two directories titled TEST and TRAIN, each with two more directories within titled 'Ferarri Testarossa' and 'Not a Ferrari Testarossa'.
 
 Low Accuracy: Initially my accuracy was 60% I was able to dramatically improve my accuracy to about 99.3% by changing the amount of output nodes within my dense fully connected layer. Since changes as these are not consistent and vary accross different models, I predict it worked because for binary classification, it may help if your last layers are closer to one, since the final activation layer will only have one node.
 
