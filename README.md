@@ -1,4 +1,4 @@
-# Computer-Vision-FerrariDetective
+# Computer Vision Ferrari Detective
 ## Overview
 
 This is a completed computer vision project. The objective of this project was to train a convolutional neural network to detect a Ferrari Testarosssa out of a repository of vehichles.
